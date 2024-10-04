@@ -1,0 +1,16 @@
+
+/* chat-section */
+
+.chat-section{
+    width: 80%;
+    height: 60vh;
+    /* display: flex; */
+    margin: 30px 80px;
+    padding:30px 80px ;
+    background: linear-gradient(125deg,#F6E5BA,#44aed1d0, #35B1D9);
+  }
+  .chat-container{
+   
+    /* background: linear-gradient(195deg,#e6f6fa, #A1D3E3, #4E99B9 ); */
+  }
+  

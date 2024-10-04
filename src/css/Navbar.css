@@ -1,0 +1,32 @@
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    padding: 0.625rem 1.4375rem; /* 10px 23px */
+    justify-content: space-between;
+    display: flex;
+    background-color: #4E99B9;
+    box-shadow: 1px 1px 4px rgba(50, 50, 50, 0.4);
+    position: relative; 
+    z-index: 10; 
+  }
+  
+  .nav-links ul {
+    display: flex;
+    gap: 1.25rem; 
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+  }
+  
+  .nav-links ul li a {
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+    text-decoration: none;
+  }
+  .nav-links a.active {
+    color: #ffffff; 
+  }
+  .logo img {
+    width: 10rem; 
+  }

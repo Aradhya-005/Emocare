@@ -1,0 +1,103 @@
+/* login css */
+
+.signin-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  /* padding: 0 50px; */
+  /* background-color: #f7f9fc; */
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px  50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(195deg, #e6f6fa, #A1D3E3, #4E99B9);
+  height: 100%;
+  color: white;
+}
+
+.left-side h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.left-side p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+ 
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+}
+
+.right-side h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group input::placeholder{
+  font-family: "Montserrat", sans-serif;
+  color: rgb(196, 195, 196);
+}
+
+.signin-btn {
+  width: 20%;
+  padding: 12px;
+  background-color: #4E99B9;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.signin-btn:hover {
+  background-color: #367B95;
+}
+
+.signin-options {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signin-options a {
+  color: #4E99B9;
+  text-decoration: none;
+}
+
+.signin-options a:hover {
+  text-decoration: underline;
+}
+

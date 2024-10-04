@@ -1,0 +1,90 @@
+/* therapist section */
+
+.therapist-help-section {
+    padding: 60px 150px;
+  }
+  
+  .therapist-help-header {
+    text-align:left;
+    margin-bottom: 30px;
+  }
+  
+  .therapist-help-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .therapist-help-header p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .therapist-profile {
+     max-width: 80%;
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction:row;
+    gap: 30px;
+    background: linear-gradient(195deg,#e6f6fa, #A1D3E3, #4E99B9 );
+    padding: 30px 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  
+  .therapist-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .therapist-info h2 {
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .therapist-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .therapist-info span {
+    font-weight: bold;
+  }
+  
+  .therapist-actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .therapy-button, .donate-button {
+    padding: 13px 24px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500; 
+    background-color: #171717;
+    color: white;
+   
+  }
+  .donate-button:hover{
+    
+    cursor: pointer;
+    background-color: #2e2e2e;
+    
+   
+  }
+  .therapy-button:hover{
+    cursor: pointer;
+    background-color: #2e2e2e;
+    
+   
+  }
+  
