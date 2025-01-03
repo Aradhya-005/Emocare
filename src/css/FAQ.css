@@ -1,3 +1,5 @@
+/* faq's section */
+
 .frequentQuestion-section {
  
     padding: 0 0 8rem 12rem; /* 0px 0 120px 0 */
@@ -8,7 +10,7 @@
   }
   
   .frequentQuestion-section h1 {
-    letter-spacing: 2.3rem; /* remains as it is */
+    letter-spacing: 2.3rem; 
   }
   
   .frequentQuestion-section ul li {
@@ -19,7 +21,7 @@
     line-height: 2.1rem; 
   }
   .frequentQuestion-section ul li img {
-    width: 1.5rem; /* remains as it is */
+    width: 1.5rem; 
     margin: 0 1.5625rem 0 0; /* 0 25px 0 0px */
   }
   

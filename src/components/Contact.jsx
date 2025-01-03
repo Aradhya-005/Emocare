@@ -1,6 +1,6 @@
 import React from 'react'
 import Animation from '../assets/animated women.gif'
-// import '../css/Contact.css'
+import '../css/Contact.css'
 
 function Contact() {
   return (

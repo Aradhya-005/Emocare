@@ -12,11 +12,11 @@
 
 .left-side {
   flex: 1;
-  padding: 20px  50px;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(195deg, #e6f6fa, #A1D3E3, #4E99B9);
+  background: linear-gradient(195deg, #e6f6fa, #a1d3e3, #4e99b9);
   height: 100%;
   color: white;
 }
@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 40px;
- 
+
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   border-radius: 10px;
 }
@@ -55,7 +55,6 @@
   display: block;
   margin-bottom: 5px;
   font-size: 1.1rem;
-  
 }
 
 .form-group input {
@@ -65,7 +64,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.form-group input::placeholder{
+.form-group input::placeholder {
   font-family: "Montserrat", sans-serif;
   color: rgb(196, 195, 196);
 }
@@ -73,18 +72,18 @@
 .signin-btn {
   width: 20%;
   padding: 12px;
-  background-color: #4E99B9;
+  background-color: #4e99b9;
   color: white;
   border: none;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;;
+  font-family: "Montserrat", sans-serif;
   border-radius: 5px;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .signin-btn:hover {
-  background-color: #367B95;
+  background-color: #367b95;
 }
 
 .signin-options {
@@ -93,11 +92,10 @@
 }
 
 .signin-options a {
-  color: #4E99B9;
+  color: #4e99b9;
   text-decoration: none;
 }
 
 .signin-options a:hover {
   text-decoration: underline;
 }
-

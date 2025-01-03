@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Login from './components/Login';
 import Signup from "./components/SignUp";
+import Blog from "./components/Blog";
 
 function App() {
   const location = useLocation();  // Get the current route
@@ -23,6 +24,7 @@ function App() {
         <Route path="/chatroom" element={<Chatroom />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
       
